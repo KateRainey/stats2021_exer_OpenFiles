@@ -2,7 +2,7 @@
 title: "Opening Files Assignment"
 output:
   md_document:
-    variant: markdown_github
+    variant: markdown_githubprint
 ---
 
 #  Getting Started
@@ -27,6 +27,9 @@ packages <- c("tidyverse","rio","jmv")
 ```
 
 This next code block has eval=FALSE because you don't want to run it when knitting the file. Installing packages when knitting an R notebook can be problematic.
+```{r}
+
+```
 
 ```{r eval=FALSE}
 # check each of the packages in the list and install them if they're not installed already
@@ -84,6 +87,15 @@ R has a number of data set included with it. One of those datasets is the cars d
 
 ```{r}
 plot(cars)
+```
+```{r}
+
+```
+```{r}
+View(cars)
+```
+```{r} 
+print("hello")
 ```
 
 ## Add a new code block
